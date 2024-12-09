@@ -1,0 +1,413 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url(../fonts/OpenSans.ttf);
+}
+
+.navbar {
+  width: 620px;
+  height: 50px;
+  padding: 15px 24px 16px 707px;
+  background-color: #060008;
+  position: relative;
+}
+
+
+.Lineup {
+  width: 58px;
+  height: 21px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 2%;
+  font-family: OpenSans;
+  z-index: 1;
+}
+
+.Tickets {
+  width: 58px;
+  height: 21px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 2%;
+  font-family: OpenSans;
+  z-index: 1;
+}
+
+.Experiences {
+  width: 58px;
+  height: 21px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: absolute;
+  margin-left: 69%;
+  margin-top: 2%;
+  font-family: OpenSans;
+  z-index: 1;
+}
+
+.Connect {
+  width: 58px;
+  height: 21px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: absolute;
+  margin-left: 81%;
+  margin-top: 2%;
+  font-family: OpenSans;
+  z-index: 1;
+}
+
+.Merchandise {
+  width: 58px;
+  height: 21px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: absolute;
+  margin-left: 90%;
+  margin-top: 2%;
+  font-family: OpenSans;
+  z-index: 1;
+}
+
+.lostlandslogohome {
+  display: block;
+  width: 98px;
+  height: 62px;
+  background: url(../images/lostlandslogo.png);
+  background-size: cover;
+  position: absolute;
+  margin: 0 1324px 1213px 18px;
+  z-index: 99;
+}
+
+.bgpic {
+  width: 1237px;
+/*  height: 1699px;*/
+  height: 1300px;
+  padding: 100px 20px 280px 94px;
+  position: absolute;
+  background: url(../images/bgpic.png);
+  margin-top: -1%;
+  background-repeat: no-repeat;
+}
+
+.LINEUP {
+  width: 346px;
+  height: 127px;
+  margin: 0 148px 55px 118px;
+  font-family: OpenSans;
+  font-size: 96px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  margin-left: 37%;
+  margin-top: 5%;
+}
+
+.Apashe {
+  width: 320px;
+  height: 378px;
+  margin: 0 0 88px;
+  border-radius: 20px;
+  background: url(../images/Apashe.png);
+  position: absolute;
+  z-index: 2;
+  margin-top: 25%;
+  margin-left: 8%;
+}
+
+.ATLiens {
+  width: 320px;
+  height: 378px;
+  margin: 0 0 88px;
+  border-radius: 20px;
+  background: url(../images/ATLiens.png);
+  position: absolute;
+  z-index: 2;
+  margin-top: 25%;
+  margin-left: 38%;
+}
+
+.Crankdat {
+  width: 320px;
+  height: 378px;
+  margin: 0 0 88px;
+  border-radius: 20px;
+  background: url(../images/Crankdat.png);
+  position: absolute;
+  z-index: 2;
+  margin-top: 25%;
+  margin-left: 68%;
+}
+
+.Kayzo {
+  width: 320px;
+  height: 378px;
+  margin: 0 8px 88px 0;
+  border-radius: 20px;
+  background: url(../images/Kayzo.png);
+  position: absolute;
+  z-index: 2;
+  margin-top: 75%;
+  margin-left: 8%;
+}
+
+.RayVolpe {
+  width: 320px;
+  height: 378px;
+  margin: 0 0 88px;
+  border-radius: 20px;
+  background: url(../images/RayVolpe.png);
+  position: absolute;
+  z-index: 2;
+  margin-top: 75%;
+  margin-left: 38%;
+}
+
+.TapeB {
+  width: 326px;
+  height: 378px;
+  margin: 0 0 88px;
+  border-radius: 20px;
+  background: url(../images/TapeB.png);
+  position: absolute;
+  z-index: 2;
+  margin-top: 75%;
+  margin-left: 68%;
+}
+
+.bg1 {
+  width: 173px;
+  height: 251px;
+  margin: 215px 0 0;
+  padding: 188px 73px 31px 74px;
+  border-radius: 20px;
+  background-color: #060008;
+  position: absolute;
+  z-index: 1;
+  margin-top: 25%;
+  margin-left: 8%;
+}
+
+.APASHE {
+  width: 173px;
+  height: 32px;
+  font-family: OpenSans;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.58;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f2ebe3;
+  position: absolute;
+  z-index: 2;
+  margin-top: 55%;
+  margin-left: 12.5%;
+}
+
+.bg2 {
+  width: 173px;
+  height: 251px;
+  margin: 215px 0 0;
+  padding: 188px 73px 31px 74px;
+  border-radius: 20px;
+  background-color: #060008;
+  position: absolute;
+  z-index: 1;
+  margin-top: 25%;
+  margin-left: 38%;
+}
+
+.ATLIENS {
+  width: 173px;
+  height: 32px;
+  font-family: OpenSans;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.58;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f2ebe3;
+  position: absolute;
+  z-index: 2;
+  margin-top: 55%;
+  margin-left: 42.5%;
+}
+
+.bg3 {
+  width: 173px;
+  height: 251px;
+  margin: 215px 0 0;
+  padding: 188px 73px 31px 74px;
+  border-radius: 20px;
+  background-color: #060008;
+  position: absolute;
+  z-index: 1;
+  margin-top: 25%;
+  margin-left: 68%;
+}
+
+.CRANKDAT {
+  width: 173px;
+  height: 32px;
+  font-family: OpenSans;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.58;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f2ebe3;
+  position: absolute;
+  z-index: 2;
+  margin-top: 55%;
+  margin-left: 70%;
+}
+
+.bg4 {
+  width: 173px;
+  height: 251px;
+  margin: 215px 0 0;
+  padding: 188px 73px 31px 74px;
+  border-radius: 20px;
+  background-color: #060008;
+  position: absolute;
+  z-index: 1;
+  margin-top: 75%;
+  margin-left: 8%;
+}
+
+.KAYZO {
+  width: 173px;
+  height: 32px;
+  font-family: OpenSans;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.58;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f2ebe3;
+  position: absolute;
+  z-index: 2;
+  margin-top: 105%;
+  margin-left: 14%;
+}
+
+.bg5 {
+  width: 173px;
+  height: 251px;
+  margin: 215px 0 0;
+  padding: 188px 73px 31px 74px;
+  border-radius: 20px;
+  background-color: #060008;
+  position: absolute;
+  z-index: 1;
+  margin-top: 75%;
+  margin-left: 38%;
+}
+
+.RAYVOLPE {
+  width: 300px;
+  height: 32px;
+  font-family: OpenSans;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.58;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f2ebe3;
+  position: absolute;
+  z-index: 2;
+  margin-top: 105%;
+  margin-left: 40%;
+}
+
+.bg6 {
+  width: 173px;
+  height: 251px;
+  margin: 215px 0 0;
+  padding: 188px 73px 31px 74px;
+  border-radius: 20px;
+  background-color: #060008;
+  position: absolute;
+  z-index: 1;
+  margin-top: 75%;
+  margin-left: 68%;
+}
+
+.TAPEB {
+  width: 300px;
+  height: 32px;
+  font-family: OpenSans;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.58;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f2ebe3;
+  position: absolute;
+  z-index: 2;
+  margin-top: 105%;
+  margin-left: 73%;
+}
+
+.ViewAllButton {
+  width: 80px;
+  height: 34px;
+  margin: 55px 0 47.5px 383px;
+  padding: 0 30px;
+  border-radius: 34px;
+  border: solid 2px #000;
+  background-color: #f2ebe3;
+  position: absolute;
+  z-index: 2;
+  margin-top: 20%;
+  margin-left: 80%;
+}
+
+.ViewAllText {
+  width: 97px;
+  height: 34px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  position: absolute;
+  z-index: 3;
+  margin-top: 19.9%;
+  margin-left: 81.5%;
+}

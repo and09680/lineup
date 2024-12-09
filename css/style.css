@@ -1,0 +1,317 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url(../fonts/OpenSans.ttf);
+}
+
+
+.navbar {
+  width: 620px;
+  height: 50px;
+  padding: 15px 24px 16px 707px;
+  background-color: #060008;
+  position: relative;
+}
+
+
+.Lineup {
+  width: 58px;
+  height: 21px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 2%;
+  font-family: OpenSans;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.Tickets {
+  width: 58px;
+  height: 21px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 2%;
+  font-family: OpenSans;
+  z-index: 1;
+}
+
+.Experiences {
+  width: 58px;
+  height: 21px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: absolute;
+  margin-left: 69%;
+  margin-top: 2%;
+  font-family: OpenSans;
+  z-index: 1;
+}
+
+.Connect {
+  width: 58px;
+  height: 21px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: absolute;
+  margin-left: 81%;
+  margin-top: 2%;
+  font-family: OpenSans;
+  z-index: 1;
+}
+
+.Merchandise {
+  width: 58px;
+  height: 21px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: absolute;
+  margin-left: 90%;
+  margin-top: 2%;
+  font-family: OpenSans;
+  z-index: 1;
+}
+
+
+.lostlands1 {
+  width: 1351px;
+  height: 1216px;
+  margin-top: 6%;
+  padding: 0 0 100px;
+  background: url(../images/lostlands1.png);
+  position: absolute;
+}
+
+.lostlands2 {
+  width: 1351px;
+  height: 1218px;
+  margin: 1213px 0 0;
+  background: url(../images/lostlands2.png);
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.lostlandslogohome {
+  width: 98px;
+  height: 62px;
+  background: url(../images/lostlandslogo.png);
+  background-size: cover;
+  position: absolute;
+  margin: 0 1324px 1213px 18px;
+  z-index: 99;
+}
+
+.Welcome {
+  width: 600px;
+  height: 174px;
+  margin: 48px 286px 41px 319px;
+  font-family: OpenSans;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 30%;
+}
+
+.WelcomeDescription {
+  width: 780px;
+  height: 201px;
+  margin: 41px 320px 108px 340px;
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 25%;
+}
+
+.heroimage {
+  width: 450px;
+  height: 250px;
+  margin: 40px 400px 48px 412px;
+  background: url(../images/lostlandslogo.png);
+  position: absolute;
+  background-size: cover;
+  z-index: 1;
+  margin-top: 10%;
+  margin-left: 35%;
+}
+
+.buytickets {
+  width: 700px;
+  height: 150px;
+  border-radius: 42px;
+  border: solid 1px #f2ebe3;
+  background-color: #000;
+  position: absolute;
+  color: white;
+  z-index: 1;
+  margin-top: 70%;
+  margin-left: 27%;
+  font-size: 40px;
+  font-family: OpenSans;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 150px;
+  text-decoration: none;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.buytickets:hover {
+  background: white;
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+  border: solid 1px black;
+}
+
+.ThroughtheYears {
+  width: 699px;
+  height: 40px;
+  margin: 0 142px 64px 128px;
+  font-family: OpenSans;
+  font-size: 64px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.63;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+  position: absolute;
+  margin-top: 90%;
+  margin-left: 28%;
+}
+
+.throughtheyears1 {
+  width: 601px;
+  height: 465px;
+  flex-grow: 0;
+  border-radius: 20px;
+  background: url(../images/throughtheyears1.png);
+  position: absolute;
+  z-index: 2;
+  margin-top: 103%;
+  margin-left: 45%;
+}
+
+.Year1 {
+  width: 147px;
+  height: 87px;
+  flex-grow: 0;
+  font-family: OpenSans;
+  font-size: 64px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  margin-top: 105%;
+  margin-left: 25%;
+}
+
+.Year1Caption {
+  width: 285px;
+  height: 465px;
+  flex-grow: 0;
+  padding: 17px 68px 361px 70px;
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #f2ebe3;
+  position: absolute;
+  z-index: 1;
+  margin-top: 106%;
+  margin-left: 16%;
+}
+
+.throughtheyears2 {
+  width: 601px;
+  height: 465px;
+  margin: 93px 21px 0 0;
+  border-radius: 20px;
+  background: url(../images/throughtheyears2.png);
+  z-index: 1;
+  position: absolute;
+  margin-top: 135%;
+  margin-left: 10%;
+}
+
+.Year2 {
+  width: 147px;
+  height: 87px;
+  flex-grow: 0;
+  font-family: OpenSans;
+  font-size: 64px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  z-index: 1;
+  position: absolute;
+  margin-top: 145%;
+  margin-left: 65%;
+}
+
+.Year2Caption {
+  width: 260px;
+  height: 240px;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #f2ebe3;
+  position: absolute;
+  z-index: 1;
+  margin-top: 147%;
+  margin-left: 62%;
+}
+
+
+
+
+
